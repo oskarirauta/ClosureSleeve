@@ -1,8 +1,4 @@
-.DS_Store
-Sources/.DS_Store
-Sources/ClosureSleeve/.DS_Store
-Sources/ClosureSleeve/Extensions/.DS_Store
-
+*.DS_Store
 *.xcworkspacedata
 *.xcuserstate
-*.plist
+.swiftpm/xcode/xcuserdata/osku.xcuserdatad/xcschemes/xcschememanagement.plist
