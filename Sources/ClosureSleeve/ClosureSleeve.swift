@@ -1,8 +1,9 @@
 import Foundation
 
-open class ClosureSleeve {
-    let closure: () -> Void
+public final class ClosureSleeve {
     
+    let closure: () -> Void
+
     init(for object: AnyObject, _ closure: @escaping () -> Void) {
         
         self.closure = closure
@@ -15,7 +16,8 @@ open class ClosureSleeve {
         )
     }
     
-    @objc open func invoke () {
+    @objc func invoke() {
         closure()
     }
+    
 }

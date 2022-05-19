@@ -3,3 +3,6 @@ Sources/.DS_Store
 Sources/ClosureSleeve/.DS_Store
 Sources/ClosureSleeve/Extensions/.DS_Store
 
+*.xcworkspacedata
+*.xcuserstate
+*.plist
